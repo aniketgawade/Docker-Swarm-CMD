@@ -11,3 +11,6 @@ docker-machine ssh manager1 "docker node ls"
 docker-machine ssh manager1 "docker service create -p 80:80 --name web nginx:latest"
 
 docker-machine ssh manager1 "docker service ls"
+
+Useful link:
+https://github.com/docker/labs/tree/master/swarm-mode/beginner-tutorial
